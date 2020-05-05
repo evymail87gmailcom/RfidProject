@@ -5,10 +5,22 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RfidProject", "RfidProject.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP8266WiFi-1.0", "Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems", "{C09910AF-02F6-46FA-9F51-D56E6825C66E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPI-1.0", "Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems", "{14754BB4-9B93-4B48-9BAD-59D26264F1A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFRC522-1.4.6", "Libraries\MFRC522\1.4.6\MFRC522\MFRC522-1.4.6.vcxitems", "{1B44F063-C890-4224-A4B6-FD2D32C7FFA1}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{14754bb4-9b93-4b48-9bad-59d26264f1a5}*SharedItemsImports = 9
+		Libraries\MFRC522\1.4.6\MFRC522\MFRC522-1.4.6.vcxitems*{1b44f063-c890-4224-a4b6-fd2d32c7ffa1}*SharedItemsImports = 9
+		Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{c09910af-02f6-46fa-9f51-d56e6825c66e}*SharedItemsImports = 9
 		Libraries\Arduino_JSON\0.1.0\Arduino_JSON\Arduino_JSON-0.1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		Libraries\ESP8266HTTPClient\1.2\ESP8266HTTPClient\ESP8266HTTPClient-1.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\ESP8266WiFi\1.0\ESP8266WiFi\ESP8266WiFi-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\MFRC522\1.4.6\MFRC522\MFRC522-1.4.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
