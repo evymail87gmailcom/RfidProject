@@ -18,8 +18,8 @@ public:
 	String card_uid;
 	String testcard_uid = "12";
 	// network settings
-	const char* ssid = "#Telia-5BB008";
-	const char* password = "A()Zc14yN1#uZw8)";
+	const char* ssid = "insertwifi";
+	const char* password = "insert wifipassword";
 
 	HTTPClient http;
 
